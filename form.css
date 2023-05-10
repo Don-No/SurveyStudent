@@ -1,0 +1,54 @@
+header{
+    text-align: center;
+    padding-bottom: 15px;
+}
+body{
+    background-color: orange;
+    padding-bottom: 50px;
+}
+form{
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 550px;
+    height: 950px;
+    box-shadow: 1px 2px 25px 0px grey;
+}
+.form-group{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+    border-radius: 2.5px;
+}
+.formControl{
+    width: 500px;
+    height: 30px;
+    padding-left: 7px;
+    border-radius: 2.5px;
+}
+.form-group button{
+    width: 500px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 2.5px;
+    border: 5px;
+    font-weight: 600;
+    font-size: medium;
+}
+.form-group label{
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    padding: 15px;
+}
+p{
+    display: inline-block;
+    float: left;
+    padding-left: 23px;
+    padding: 20px;
+    margin: 0;
+}
+.nameselect {
+    width: 500px;
+    text-align: left;
+    padding-left: 25px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Survey form for student</title>
+   <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="title">
+            Survey Form For Student
+        </h1>
+    </header>
+<form action="" id="survey-form">
+
+            <!-- Text section -->
+            <div class="form-group">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Võ Ngọc Thành" required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Type Email section -->
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" class="formControl" placeholder="thanhvnde160635@fpt.edu.vn
+                " required>
+            </div>
+            <!-- end of Email section -->
+
+            <!-- Type Number section -->
+            <div class="form-group">
+                <label for="age">Age</label><br>
+                <input type="age" name="age" id="age" class="formControl" placeholder="Enter your age" required>
+            </div>
+            <!-- end of Number section -->
+
+            <!-- select section -->
+            <div class="form-group">
+                <p id="quest">Which option best describes you?</p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="job">Job</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <!-- end of select section -->
+
+            <!-- Checkbox section -->
+            <div class="form-select">
+                <p id="quest">Languages and Frameworks known (Check all that apply) </p>
+                <br><br><br><br>
+                <div class="nameselect">
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="C"> C
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="C++"> C++
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="C#">  C#
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="java"> Java
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="python"> Python
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="javascript"> JavaScript
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="react"> React
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="angular"> Angular
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="django"> Django
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="spring"> Spring
+                </label><br>
+                </div>
+                <br>
+            </div>
+            <!-- End of checkbox section -->
+
+            <!-- Textarea section -->
+            <div class="form-group">
+                <p id="quest">Any comments or suggestions</p>
+                <textarea name="feedback"  cols="66" rows="3"  id="feedback" class="textarea" placeholder=""></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+</body>
+</html>
