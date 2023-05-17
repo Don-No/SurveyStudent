@@ -3,7 +3,7 @@ header{
     padding-bottom: 15px;
 }
 body{
-    background-color: orange;
+    background-color: #fd7e14;
     padding-bottom: 50px;
 }
 form{
@@ -11,7 +11,7 @@ form{
     text-align: center;
     margin: 0 auto;
     width: 550px;
-    height: 950px;
+    height: 1180px;
     box-shadow: 1px 2px 25px 0px grey;
 }
 .form-group{
@@ -27,7 +27,6 @@ form{
 }
 .form-group button{
     width: 500px;
-    height: 25px;
     background-color: orange;
     border-radius: 2.5px;
     border: 5px;
